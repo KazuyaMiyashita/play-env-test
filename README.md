@@ -18,7 +18,12 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
-* `.envrc`というファイルに必要な環境変数を設定する
+* `.envrc`というファイルに必要な環境変数を設定する。以下サンプル
+
+```
+export PLAY_ENV_TEST_SAMPLE_ENV_APIKEY=hogehoge-apikey-from-envrc
+```
+
 * **`.envrc`を.gitignoreする。**
   * ローカルのグローバルな設定で行うと良いと思う
   * * `git config --global core.excludesfile $HOME/.gitignore_global`
