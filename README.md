@@ -26,10 +26,10 @@ export PLAY_ENV_TEST_SAMPLE_ENV_APIKEY=hogehoge-apikey-from-envrc
 
 * **`.envrc`を.gitignoreする。**
   * ローカルのグローバルな設定で行うと良いと思う
-  * * `git config --global core.excludesfile $HOME/.gitignore_global`
+    * `git config --global core.excludesfile $HOME/.gitignore_global`
 
 
-./gitignore_global
+~/.gitignore_global
 
 ```
 # direnv
